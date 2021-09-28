@@ -41,6 +41,8 @@ aside a {
     text-decoration: none;
     transition: 1s;
     font-family: 'Rubik', sans-serif;
+    margin-left: 3px;
+    margin-right: 3px;
 }
 
 body {
@@ -56,16 +58,17 @@ main {
     margin-top: auto;
     margin-bottom: auto;
     overflow-y: scroll;
-    padding-bottom: 30px;
+    /* padding-bottom: 30px; */
     background-color: #fff;
     padding-top: 5px;
 }
 
-::-webkit-scrollbar {
+
+/* ::-webkit-scrollbar {
     width: 1px;
     background-color: cornflowerblue;
     border-radius: 5px;
-}
+} */
 
 .cont {
     width: 90%;
@@ -87,6 +90,38 @@ main {
 .cont h2 {
     font-family: 'Noto Sans Display', sans-serif;
     font-size: 22px;
+}
+
+.flat {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    overflow-x: scroll;
+    align-items: center;
+    /* justify-content: center; */
+    margin-top: 40px;
+}
+
+::-webkit-scrollbar {
+    width: 0px;
+}
+
+.flat article img {
+    border-radius: 10px;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+footer {
+    text-align: center;
+    width: 100%;
+    background-color: black;
+    color: white;
+    font-size: 13px;
+    padding: 3px;
 }
 
 @media(max-width:400px) {
