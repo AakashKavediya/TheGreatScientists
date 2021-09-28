@@ -88,9 +88,14 @@ main {
     font-size: 22px;
 }
 
-@media(max-width:450px) {
+@media(max-width:400px) {
     header video {
-        height: 30vh;
+        height: 90vh;
+        visibility: hidden;
+    }
+    header {
+        background: url(./image/The\ Great\ scientist.gif);
+        background-size: cover;
     }
     body {
         width: 100%;
