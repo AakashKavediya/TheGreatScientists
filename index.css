@@ -64,6 +64,7 @@ main {
 ::-webkit-scrollbar {
     width: 1px;
     background-color: cornflowerblue;
+    border-radius: 5px;
 }
 
 .cont {
