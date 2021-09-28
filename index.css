@@ -90,11 +90,11 @@ main {
 
 @media(max-width:400px) {
     header video {
-        height: 90vh;
+        height: 75vh;
         visibility: hidden;
     }
     header {
-        background: url(./image/The\ Great\ scientist.gif);
+        background: url(./image/The\ Great\ scientist.gif) no-repeat;
         background-size: cover;
     }
     body {
