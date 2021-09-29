@@ -43,8 +43,8 @@ aside a {
     text-decoration: none;
     transition: 1s;
     font-family: 'Rubik', sans-serif;
-    margin-left: 3px;
-    margin-right: 3px;
+    margin-left: 1px;
+    margin-right: 1px;
 }
 
 body {
@@ -71,4 +71,96 @@ aside a:hover {
 
 ::-webkit-scrollbar {
     width: 0px;
+}
+
+.cont {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.cont h2 {
+    font-family: 'Noto Sans Display', sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 3px;
+    border-bottom: 3px solid #000;
+    width: max-content;
+    margin-top: 5px;
+}
+
+.cont #article1 img {
+    float: left;
+    height: 140px;
+    border-radius: 10px;
+}
+
+#article1 {
+    margin-top: 20px;
+}
+
+.cont #article1 p {
+    /* float: right; */
+    /* display: flex; */
+    margin-left: 150px;
+}
+
+.cont #article2 img {
+    float: right;
+    height: 140px;
+    border-radius: 10px;
+    margin-left: 15px;
+}
+
+.cont #article2 p {
+    /* float: left; */
+    /* display: flex; */
+}
+
+@media(max-width:400px) {
+    header video {
+        height: 75vh;
+        visibility: hidden;
+    }
+    header {
+        background: url(./image/The\ Great\ scientist.gif) no-repeat;
+        background-size: cover;
+    }
+    body {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media(max-width:700px) {
+    aside a {
+        font-size: 10px;
+    }
+}
+
+@media(max-width:900px) {
+    aside a {
+        font-size: 10px;
+    }
+}
+
+@media(max-width:850px) {
+    aside a {
+        font-size: 8px;
+    }
+}
+
+@media(max-width:600px) {
+    aside a {
+        font-size: 6px;
+    }
+}
+
+@media(max-width:500px) {
+    aside a {
+        font-size: 4px;
+    }
 }

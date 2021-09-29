@@ -29,10 +29,12 @@ aside {
     margin-left: auto;
     margin-right: auto;
     background-color: #fff;
-    width: 100%;
+    width: 90%;
     display: flex;
     justify-content: space-between;
     flex-direction: row;
+    padding-bottom: 2px;
+    border-bottom: 1px solid #ededed;
 }
 
 aside a {
@@ -49,7 +51,7 @@ body {
     width: 86%;
     margin-left: auto;
     margin-right: auto;
-    background: url(./image/back2.png);
+    background: url(../image/back2.png);
     background-size: cover;
 }
 
@@ -67,88 +69,26 @@ aside a:hover {
     background-color: whitesmoke;
 }
 
-.cont {
-    width: 90%;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 20px;
-}
-
-.cont p {
-    margin-top: 7px;
-    font-family: 'Noto Sans Display', sans-serif;
-    font-size: 15px;
-}
-
-.cont article {
-    margin-bottom: 14px;
-}
-
-.cont h2 {
-    font-family: 'Noto Sans Display', sans-serif;
-    font-size: 22px;
-}
-
-.flat {
-    margin-top: 40px;
-}
-
 ::-webkit-scrollbar {
     width: 0px;
 }
 
-#odd img {
-    float: right;
-}
-
-.flat article img {
-    border-radius: 10px;
-    height: 120px;
-    margin-right: 8px;
-    float: left;
-}
-
-.flat article {
+.cont {
     width: 90%;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 12px;
 }
 
-.flat article p {
-    font-family: 'Source Sans Pro', sans-serif;
-    font-weight: 500;
-    font-size: 16px;
-}
-
-.flat article b {
-    font-weight: bold;
-    font-size: 20px;
-}
-
-footer {
-    text-align: center;
-    width: 100%;
-    background-color: black;
-    color: white;
-    font-size: 13px;
-    padding: 3px;
-}
-
-@media(max-width:400px) {
-    header video {
-        height: 75vh;
-        visibility: hidden;
-    }
-    header {
-        background: url(./image/The\ Great\ scientist.gif) no-repeat;
-        background-size: cover;
-    }
-    body {
-        width: 100%;
-        margin-left: auto;
-        margin-right: auto;
-    }
+.cont h2 {
+    font-family: 'Noto Sans Display', sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 3px;
+    border-bottom: 3px solid #000;
+    width: max-content;
+    margin-top: 5px;
 }
 
 @media(max-width:400px) {
